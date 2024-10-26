@@ -140,14 +140,14 @@ main {
 
 .restaurante {
     background-color: #E53935;
-    background-image: url('restaurant.png');
+    background-image: url('./imagens/restaurant.png');
     background-repeat: no-repeat;
     background-position: right bottom;
 }
 
 .mercado {
     background-color: #8BC34A;
-    background-image: url('market.png');
+    background-image: url('./imagens/market.png');
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -180,22 +180,22 @@ main {
 }
 
 .bebidas {
-    background-color: #FFEB3B; 
-    background-image: url('drinks.png'); 
+    background-color: #FFD700;
+    background-image: url('./imagens/drinks.png'); 
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .farmacia {
-    background-color: #FFCDD2; 
-    background-image: url('pharmacy.png');
+    background-color: #FF6F61;
+    background-image: url('./imagens/pharmacy.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .pet-shop {
-    background-color: #D1C4E9; 
-    background-image: url('petshop.png');
+    background-color: #8E44AD; 
+    background-image: url('./imagens/petshop.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -221,18 +221,6 @@ main {
 
 .small-box:hover {
     transform: scale(1.05);
-}
-
-.bebidas {
-    background-color: #FFD700;
-}
-
-.farmacia {
-    background-color: #FF6F61;
-}
-
-.petshop {
-    background-color: #8E44AD;
 }
 
 .small-box h3 {
